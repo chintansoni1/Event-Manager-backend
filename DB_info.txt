@@ -1,0 +1,2 @@
+use eventManager
+db.createUser({ user:"eventAdmin", pwd: "event123!", roles: [{role: "userAdmin", db: "eventManager"}] })
