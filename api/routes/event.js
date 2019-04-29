@@ -5,8 +5,7 @@ import verifyToken from '../../utils/verify-token';
 import {
   body,
   validationResult
-} from 'express-validator/check'
-import Validators from '../../utils/validators';
+} from 'express-validator/check';
 import Moment from 'moment';
 
 const eventModel = new Models.EventModel()
